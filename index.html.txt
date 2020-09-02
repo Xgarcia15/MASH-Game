@@ -4,9 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
-<h1 style="background-color:Aquamarine;">MASH</h1>
-    <link href="" rel="stylesheet">
-    <link href="" rel="stylesheet">
+<h1>MASH</h1>
+    <link href="normalize.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
   </head>
   
   <!-- HEAD SECTION ENDS -->
