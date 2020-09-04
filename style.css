@@ -15,7 +15,8 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size:100px;
+  font-size:150px;
+  border: 3px solid #000000
   color: #FF7389; 
   text-align: center;
 }
