@@ -1,6 +1,7 @@
 /* Body styling */
 body {
   background: #1CBAAD;
+  border: 3px solid #000000;
   color: #000000;
   font-family: Helvetica, Arial;
   font-size: 27px;
