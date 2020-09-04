@@ -36,7 +36,8 @@ h1 {
   cursor: pointer; 
   display: block;
   font-size: 15px;
-  font-weight: bold;  
+  font-weight: bold;
+  margin: 0 auto 50px;  
   padding: 5px; 
   text-align: center; 
 }
