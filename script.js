@@ -1,7 +1,7 @@
 // New function called random_number that takes one parameter, num (or a number)
 function random_number(num) {
 	// Get a random number between 0 and a passed-in number
-	var num = || 4  // If no number passed in, default to 4
+	var num = 4  // If no number passed in, default to 4
 	Math.floor((0-1)*Math.random(4))
 	return Math.floor(Math.random() * 4); // Round the answer down (floor) of a random number between 0 and 1 and multiply it by a number. Then return a value and exit the function.
 }
