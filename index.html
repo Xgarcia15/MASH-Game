@@ -15,38 +15,41 @@
   <body>
     <h1>MASH</h1>
     <p class="description">Fill in the blanks and your future will be foretold.</p>
-    <form action="" method="post" id="home">
-      <div id="answers" class="hide">
-        <p>You'll be married to <span id="partner"></span> while living in <span id="location"></span> with <span id="kids"></span> who owns a <span id="car"></span>.
-      </div>
+    <form action="/action_page.php" method="post" id="MASH">
+      <div class="hide" id="formPartner, formLocation, formKids, formCar">
+        <p><label for="formPartner">You'll be married to</label><input name="partner" id="formPartner">
+           <label for="formLocation">while living in</label><input name="location" id="formLocation">
+           <label for="formkids">with</label><input name="kids" id="formKids"><label for="formCar">kid, who owns a</label><input name="car" id="formCar"></p>
+ </div>
       <div class="bucket">
         <div class="choice-bucket">
           <h4 class="highlight">Who's your future husband/wife?</h4>
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
+          <label for="formPartner"></label><input type="text" name="partner[]" id="formPartner">
+          <label for="formPartner"></label><input type="text" name="partner[]" id="formPartner">
+          <label for="formPartner"></label><input type="text" name="partner[]" id="formPartner">
+          <label for="formPartner"></label><input type="text" name="partner[]" id="formPartner">
+
         </div>
         <div class="choice-bucket">
           <h4 class="highlight">Where will you live?</h4>
-          <input name="answer_2[]" type="text">
-          <input name="answer_2[]" type="text">
-          <input name="answer_2[]" type="text">
-          <input name="answer_2[]" type="text">
+          <label for="formLocation"></label><input type="text" name="location[]" id="formLocation">
+          <label for="formLocation"></label><input type="text" name="location[]" id="formLocation">
+          <label for="formLocation"></label><input type="text" name="location[]" id="formLocation">
+          <label for="formLocation"></label><input type="text" name="location[]" id="formLocation">
         </div>
         <div class="choice-bucket">
           <h4 class="highlight">How many kids?</h4>
-          <input name="answer_3[]" type="text">
-          <input name="answer_3[]" type="text">
-          <input name="answer_3[]" type="text">
-          <input name="answer_3[]" type="text">
+          <label for="formKids"></label><input type="text" name="kids[]" id="formKids">
+          <label for="formKids"></label><input type="text" name="kids[]" id="formKids">
+          <label for="formKids"></label><input type="text" name="kids[]" id="formKids">
+          <label for="formKids"></label><input type="text" name="kids[]" id="formKids">
         </div>
           <div class="choice-bucket">
             <h4 class="highlight">What kind of car will you have?</h4>
-            <input type="text" name="answer_4[]">
-            <input type="text" name="answer_4[]">
-            <input type="text" name="answer_4[]">
-            <input type="text" name="answer_4[]">
+            <label for="formCar"></label><input type="text" name="car[]" id="formCar">
+            <label for="formCar"></label><input type="text" name="car[]" id="formCar">
+            <label for="formCar"></label><input type="text" name="car[]" id="formCar">
+            <label for="formCar"></label><input type="text" name="car[]" id="formCar">
       </div>
       <button type="submit" class="button-submit">Tell my fortune</button>
     </form>  
