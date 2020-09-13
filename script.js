@@ -1,7 +1,7 @@
 // New function called random_number that takes one parameter, num (or a number)
 function random_number(num) {
 	// Get a random number between 0 and a passed-in number
-	var num = || 4;  // If no number passed in, default to 4
+	var num = num || 4;  // If no number passed in, default to 4
 	return Math.floor(Math.random() * num); // Round the answer down (floor) of a random number between 0 and 1 and multiply it by a number. Then return a value and exit the function.
 }
 
@@ -64,7 +64,7 @@ function handle_submission(evt) {
 	    'answer-spouse': get_answer('answer-spouse')
 	}
 	// Fill in the answers
-	function fill_in_answers(answers);
+	fill_in_answers(answers);
 	
 	var answer_div = document.querySelector('#answers');
 	answer_div.classList.add('show');
